@@ -26,6 +26,12 @@ public class kalenderwoche{
 				System.out.println("Person 1");
 			}
 		}
+		int[] p2 = new int[]{1,6,11,16,21,26,31,36,41,46,51};
+		for(int i = 0; i < p2.length; i++){
+			if(p2[i] == kalenderwoche){
+				System.out.println("Person 2");
+			}
+		}
 		
 		
 	}
