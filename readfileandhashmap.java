@@ -17,7 +17,6 @@ public class readfileandhashmap{
             }
         }
         sc.close();
-
         System.out.println(map);
     }
 }
