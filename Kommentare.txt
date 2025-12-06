@@ -1,0 +1,8 @@
+Itteratoren sind dazu da um Listen/ArrayListen, Maps, Sets zu verändern/Bearbeiten während man sie ausließt/Sie bearbeitet
+
+ArrayListen sind Listen die ein Index haben und die keine Feste Größe haben und Reihenfolge und Duplikate speichern
+
+Sets sind listen die Keine Feste Größe haben aber auch kein Index und keine Duplikate und keine Reihenfolge
+
+Maps: speichert zwei Daten in einer Liste z.B. String und Int also Name und Alter z.B.
+

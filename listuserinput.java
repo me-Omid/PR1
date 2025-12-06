@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.ArrayList;
+import java.util.*;
 public class listuserinput{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -17,6 +18,21 @@ public class listuserinput{
         if(!einkaufsliste.contains("Milch")){
             einkaufsliste.add("Milch");
         }
+
+        Iterator<String> itr = einkaufsliste.iterator();
+
+        // Mit Itteratoren kann man eine Liste verändern während man sie ausließt 
+        while(itr.hasNext()){
+            String produkt = itr.next();
+            System.out.println(produkt);
+            if(produkt.equals("Ungesund")){
+                itr.remove();
+            }   
+        }
+
+        
+
+        
 
         System.out.println(einkaufsliste);
     }
