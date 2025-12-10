@@ -6,6 +6,7 @@ public class arraylist{
         hauptstaete.add("Berlin");
         hauptstaete.add("Paris");
         hauptstaete.add("Kabul");
+        hauptstaete.add("Rom");
 
         for(int i = 0; i < hauptstaete.size(); i++){
             System.out.println(hauptstaete.get(i));
